@@ -1,0 +1,1 @@
+ifconfig | sed -n 's/.*ether \([0-9a-fA-F:]\{17\}\).*/\1/p'
